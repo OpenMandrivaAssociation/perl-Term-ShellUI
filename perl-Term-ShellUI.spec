@@ -6,10 +6,10 @@ Version:    %perl_convert_version %{upstream_version}
 Release:    1
 
 Summary:    Parse a string into tokens
-License:    GPL+ or Artistic
+License:    MIT
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://github.com/bronson/Term-ShellUI
+Source0:    http://search.cpan.org/CPAN/authors/id/B/BR/BRONSON/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildArch: noarch
